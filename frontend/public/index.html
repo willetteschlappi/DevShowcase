@@ -53,4 +53,14 @@
     <div id="root"></div>
 
     <footer>
-      © <span id="year"></span> DevShowcase — Built
+      © <span id="year"></span> DevShowcase — Built with ❤️ using
+      <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a> &
+      <a href="https://react.dev" target="_blank">React</a>.
+    </footer>
+
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
