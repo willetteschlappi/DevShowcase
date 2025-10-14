@@ -38,3 +38,4 @@ def raise_not_found(entity: str, entity_id: int):
     Универсальный обработчик 404 ошибок.
     """
     raise HTTPException(status_code=404, detail=f"{entity.capitalize()} with ID {entity_id} not found.")
+
